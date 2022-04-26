@@ -1,0 +1,202 @@
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-image: radial-gradient(#3e3744, #19161c, #0b0a0c);
+    color: #dededeff;
+  }
+  
+  h1,
+  h2 {
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 29px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fdf8f5;
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-image: radial-gradient(#0b0a0c, #19161c, #3e3744);
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid #3e3744;
+  }
+  
+  footer {
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #3e3744;
+    color: #dededeff;
+  }
+  
+  figure {
+    margin-bottom: 40px;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #3e3744;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #3e3744;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input,
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4f4846;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+  
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: #4f4846;
+    color: #fdf8f5;
+  }
+  
+  /* Class Selectors */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .logo {
+    height: 50px;
+    display: block;
+    float: left;
+    margin: 0px;
+  }
+  
+  .profpic {
+    height: 200px;
+    border-radius: 100px;
+    padding: 15px;
+    border: solid 5px #3e3744;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    width: 30%;
+    margin: 2%;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .card-image {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .img1 {
+    background-image: url("../images/rps.jpeg");
+  }
+  .img2 {
+    background-image: url("../images/code.jpeg");
+  }
+  .img3 {
+    background-image: url("../images/cheatsheet.png");
+  }
+  .img4 {
+    background-image: url("../images/landingpage.png");
+  }
+  .img5 {
+    background-image: url("../images/prework.png");
+  }
+  
+  .card h3 {
+    padding: 10px;
+    color: #0b0a0c;
+    font-weight: 900;
+  }
+  .card p {
+    padding: 10px;
+    line-height: 30px;
+    color: #3e3744;
+  }
+  .card a {
+    background-color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+  }
+  .card:hover {
+    background-color: #d2cada;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+  #first-card {
+    width: 64%;
+  }
+  /* Cards are split into two columns at 992px or smaller */
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  

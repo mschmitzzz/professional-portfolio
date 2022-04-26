@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio - Mac Schmitz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="text-center">
+        <img class="logo" src="./assets/images/Logo.png" alt="logo" />
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/mschmitzzz">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="text-center" id="about">Mac Schmitz</h1>
+      <figure>
+        <img
+          class="profpic"
+          src="assets/images/profpic.jpg"
+          alt="Profile picture of Mac playing drums"
+        />
+        <figcaption class="text-center">
+          I am a retired professional drummer entering the world of web
+          development!
+        </figcaption>
+      </figure>
+
+      <section id="portfolio">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="container">
+          <a href="#" class="card" id="first-card">
+            <div class="card-image img1"></div>
+            <h3>Rock Paper Scissors Simulator</h3>
+            <p>A basic demonstration of JavaScript fundamentals</p>
+          </a>
+          <a
+            href="https://mschmitzzz.github.io/hw-1-code-refactor/"
+            class="card"
+          >
+            <div class="card-image img2"></div>
+            <h3>Code Refactor</h3>
+            <p>
+              Adding semantic HTML tags for accessibility and streamlined CSS
+              for cleaner stylesheet
+            </p>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image img3"></div>
+            <h3>CSS Snippet Cheatsheet</h3>
+            <p>
+              Demonstrating a collection of CSS code displayed in a responsive
+              grid using flexbox and media queries
+            </p>
+          </a>
+          <a href="#" class="card">
+            <div class="card-image img4"></div>
+            <h3>Landing Page</h3>
+            <p>A basic landing page for a real estate agent</p>
+          </a>
+          <a href="https://mschmitzzz.github.io/prework-about-me/" class="card">
+            <div class="card-image img5"></div>
+            <h3>Pre-Work About Me</h3>
+            <p>The very first thing I ever deployed!</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+          <ul>
+            <li>
+              <label class="text-right" for="name">Name:</label>
+              <input type="text" id="name" name="user-name" />
+            </li>
+            <li>
+              <label class="text-right" for="email">Email:</label>
+              <input type="text" id="email" name="user-email" />
+            </li>
+          </ul>
+          <div class="text-center">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="text-center">© Mac Schmitz 2022</footer>
+  </body>
+</html>
